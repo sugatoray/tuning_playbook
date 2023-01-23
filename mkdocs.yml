@@ -1,6 +1,6 @@
 site_name: Deeplearning Tuning Playbook
 site_url: https://sugatoray.github.io/tuning_playbook
-site_description: Chalk Diagrams - A declarative drawing API
+site_description: Deeplearning Training Playbook
 site_author: |
   **Varun Godbole<sup>&dagger;</sup>, George E. Dahl<sup>&dagger;</sup>, Justin Gilmer<sup>&dagger;</sup>, Christopher J. Shallue<sup>&Dagger;</sup>, Zachary Nado<sup>&dagger;</sup>**
 
@@ -17,7 +17,7 @@ remote_name: origin
 
 ### Copyright
 copyright: |
-  Maintained by <a href="https://github.com/danoneata">Dan Oneață</a> and <a href="https://github.com/srush">Alexander Rush</a>.
+  Maintained by <a href="https://github.com/sugatoray">Sugato Ray</a>.
 
 ### Preview Controls
 use_directory_urls: true
@@ -313,27 +313,9 @@ extra_javascript:
 ## @@ Begin NAVIGATION
 nav:
   - Home: index.md
-  - API:
-    - Shapes: api/shapes.py
-    - Alignment: api/alignment.py
-    - Combinators: api/combinators.py
-    - Transformations: api/transformations.py
-    - Style: api/style.py
-    - Rendering: api/rendering.py
-    - Trails: api/trails.py
-    - Connections: api/names.py
-    - Utils: api/utils.md
-    - Internals: api/internals.md
-  - Examples:
-    - BigBen: examples/bigben.py
-    - Hanoi: examples/hanoi.py
-    - Koch: examples/koch.py
-    - LeNet: examples/lenet.py
-    - Squares: examples/squares.py
-    - Tensor: examples/tensor.py
-    - Tree: examples/tree.py
   - About:
     - about/index.md
     - License: about/license.md
+    - Citation: about/citation.md
 
 ## @@ End NAVIGATION
