@@ -48,6 +48,7 @@ jobs:
           echo "Current Git Branch: ${USER_SPECIFIED_BRANCH}"
 
           # Begin Deploying MkDocs
+          mkdir -p ./docs/assets/images/copied
           cp -rf ./assets ./docs/assets/images/copied
           mkdocs gh-deploy --force
           mkdocs --version
